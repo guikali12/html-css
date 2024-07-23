@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+/* - visto com auxilio* {
+    margin: 0px;
+    padding: 0px;
+}*/
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+header {
+    padding-top: 40px;
+    background: linear-gradient(#38CA79, #2D9E60, #1B6139);
+    margin-bottom: 8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-bottom: 2px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: white;
+}
+
+a.headl {
+  color: white;
+  text-decoration: none; 
+  margin-right: 10px; 
+  text-align: left; 
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+header > p > a:hover {
+    color: #2D9E60;
+    background-color: rgba(255, 255, 255, 0.775);
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+}
+/*Main*/
+main {
+    margin: auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 60%;
+    height: 100%;
+    margin-top: -20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: 0px 0px 20px 3px #00000069;
+}
+
+.titulos {
+    font-family: 'Android', Times, sans-serif;
+    color: #2D9E60;
+    text-align: left;
+    margin-left: 8px;
+}
+
+main > p {
+    text-indent: 30px;
+    margin: 15px;
+}
+
+.bordasub {
+    background: linear-gradient(to right,#38CA79, whitesmoke,white);
+}
+
+strong {
+    color: #1B6139;
+}
+
+a.mainl{
+    color: #1B6139;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.mainl:hover {
+    color: #84E1AD;
+    text-decoration: underline;
+}
+
+img.imgc {
+    width: 100%;
+}
+
+img.imgb{
+    margin-left: 30%;
+}
+
+
+article.pd{ 
+    background-color: #1B6139;
+}
+
+iframe {
+    width: 750px;
+    height: 450px;
+    margin: 45px;
+}
+
+ul {
+    columns: 2;
+    list-style: none;
+}
+
+article.pd2{
+    width: auto;
+    height: auto;
+    background-color: #06c0c3;
+    margin: 45px;
+    border-radius: 12px;
+    padding-bottom: 5px;
+    
+}
+
+article.pd2 > h3 { 
+    color: white;
+    text-indent: 35px;
+    background-color: #23b925;
+    margin-top: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-top: 4px;
+
+}
+
+article.pd2 > p {
+    text-indent: 35px;
+    margin-left: 7px;
+}
+
+article.pd2 > a {
+    text-decoration: none;
+}
+
+article.pd3 > p {
+    text-indent: 35px;
+    margin: 45px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1B6139;
+    margin-top: -40px;
+    color: white;
+
+}

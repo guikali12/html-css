@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente
+        diminua o tamanho do navegador
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Foto-G imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a repodruzir áudios em HTML5.</p>
+    <!--<audio src="midia/Headlands - National Sweetheart.mp3" controls autoplay></audio>
+    Formatos aceitos pra som: MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Headlands - National Sweetheart.mp3" type="audio/mpeg">
+        <source src="midia/Headlands - National Sweetheart.ogg" type="audio/ogg">
+        <source src="midia/Headlands - National Sweetheart.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midia/Headlands - National Sweetheart.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <!--Tipos de arquivos de audio que são suportados no sistema, tem as duas formas de colocar um aúdio no seu site-->
+</body>
+</html>

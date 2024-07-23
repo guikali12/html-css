@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+
+    id só pode ser usado uma vez, por exemplo
+    id="principal", este só pode ser usado uma vez
+
+    class pode ser múltiplo,
+    por ser uma classe el apode ser chamada nas horas necessárias
+
+    consigo por id e class no mesmo elemento, mas o id se sobrepõe
+    consigo por mais de uma class no mesmo elemento, ex.: class="destaque principal"
+*/
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4,109, 0);
+    color: white;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+.basico {
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #80793c;
+}
+
+.avancado {
+    color: #803c3c;
+}
+
+.destaque{
+    background-color: #c5c56070;
+}

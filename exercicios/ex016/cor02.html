@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente CSS</title>
+    <style>
+        * {
+            height: 100%; /*Configurações globais das CSS*/
+        }
+        body {
+            background-image: linear-gradient(to bottom, #3198E2,#6D59C0,#B93590,#FDD579);
+            background-attachment: fixed;
+            /*Para gradientes pode usar comandos como, to right, to left, e as cores desejadas, ou pode ser e graus como 90deg*/
+            /*Para cima e para baixo são to up e to bottom, mas tem de definir uma configuração global (*)*/
+            /*background-image: radial-gradient(circle, #3198E2,#6D59C0,#B93590,#FDD579);
+            background-attachment: fixed; Para outras fomras utiliza-se o radial-gradient*/
+            /*background-image: linear-gradient(45deg, #3198E2,#6D59C0,#B93590,#FDD579);
+            background-attachment: fixed; Para formatos em graus utliza-se o deg*/
+            /*background-image: linear-gradient(to right, #3198E2 8%,#6D59C0 5%,#B93590,#FDD579);
+            background-attachment: fixed; Para proporção desejada de maneira não uniforme utiliza-se as porcentagens*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
