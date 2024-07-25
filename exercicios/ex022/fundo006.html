@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;/*dentro do background-size tem 3 opções de preenchimento da tela de fundo, o cover(que cobre todo o espaço da tela) o auto que tenta realizar sozinho o fundo e o contain(que mostra 100% da imagem mas se adpta a tela, podendo gerar barras pretas nas bordas ou no topo) - caso o conteúdo do site for maior que a imagem de fundo, deve ter outro comando para extender a imagem*/
+            background-repeat: no-repeat;  - >Tirei o repeat-y pois a imagem está fixada 
+            background-size: cover;  - > dentro do background-size tem 3 opções de preenchimento da tela de fundo, o cover(que cobre todo o espaço da tela) o auto que tenta realizar sozinho o fundo e o contain(que mostra 100% da imagem mas se adpta a tela, podendo gerar barras pretas nas bordas ou no topo) - caso o conteúdo do site for maior que a imagem de fundo, deve ter outro comando para extender a imagem
+            background-attachment: fixed;  - > O attachemnt possui dois tipos : o scroll que quando rola a tela a imagem segue junto, e o fixed, que a imagem fica fixa no fundo
+
+            /*Shorthand - background 
+                 - > Nesta ordem: color > image > position > repeat > [size] > attachemnt
+            */
+            
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;/*O correto do shorthand acima possui o [size], mas este não funciona no shorthand, com isso deve-se colocar o shorthand sem o size e adicioná-lo após o shorthand, como agora*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +36,12 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati maiores cumque consectetur dicta officia magni nesciunt dolores! Porro cupiditate quasi nobis, quibusdam eos asperiores recusandae tempora officia nulla explicabo hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio possimus cumque! Odit, quis! Ducimus magni, corrupti minima est sed tempora? Facere, hic est! Cupiditate sint non culpa pariatur molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolore exercitationem rem voluptas, maiores excepturi mollitia a nesciunt enim facilis odit obcaecati officia accusantium quidem iure vero sequi laborum maxime.</p>
     </main>
 </body>
